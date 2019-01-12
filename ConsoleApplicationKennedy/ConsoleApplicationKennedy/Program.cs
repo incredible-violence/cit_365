@@ -41,9 +41,12 @@ namespace ConsoleApplicationKennedy
                       
             // output number of days till christmas with label
             Console.Write("Days Till Christmas: ");
-            Console.Write(daystill.TotalDays);
+            Console.WriteLine(daystill.TotalDays);
 
             // program example from section 2.1 from the book
+            Console.WriteLine("");
+            Console.WriteLine("Section From the Book");
+            Console.WriteLine("--------------------------------------------------");
             double width, height, woodLength, glassArea;
             string widthString, heightString;
 
