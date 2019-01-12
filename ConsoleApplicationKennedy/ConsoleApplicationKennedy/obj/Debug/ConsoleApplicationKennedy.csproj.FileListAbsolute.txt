@@ -1,0 +1,7 @@
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\bin\Debug\ConsoleApplicationKennedy.exe.config
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\bin\Debug\ConsoleApplicationKennedy.exe
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\bin\Debug\ConsoleApplicationKennedy.pdb
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\obj\Debug\ConsoleApplicationKennedy.csprojAssemblyReference.cache
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\obj\Debug\ConsoleApplicationKennedy.csproj.CoreCompileInputs.cache
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\obj\Debug\ConsoleApplicationKennedy.exe
+D:\Documents\School\CIT 365\ConsoleApplicationKennedy\ConsoleApplicationKennedy\obj\Debug\ConsoleApplicationKennedy.pdb
