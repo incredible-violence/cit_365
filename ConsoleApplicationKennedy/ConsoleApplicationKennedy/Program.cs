@@ -10,16 +10,14 @@ namespace ConsoleApplicationKennedy
     {
         static void Main(string[] args)
         {
-            // welcome message
-            Console.WriteLine("");
-            Console.WriteLine("----------------------------------------------------");
-            Console.WriteLine("- Demonstration of Storing / Displaying User Input - ");
-            Console.WriteLine("----------------------------------------------------");
             // variable to store my full name
             string nameString = "";
           
             // variable to store my location
             string placeString = "";
+
+            // user input banner
+            BannerMessage("Name and Location Section");
 
             // get input
             Console.Write("User Name: ");
@@ -32,23 +30,18 @@ namespace ConsoleApplicationKennedy
             Console.WriteLine("You are from: " + placeString);
 
             // welcome message
-            Console.WriteLine("");
-            Console.WriteLine("------------------------------------------------------");
-            Console.WriteLine("- Demonstration of Current Date but not Current Time -");
-            Console.WriteLine("------------------------------------------------------");
+            BannerMessage("Current Date but not Time");
+
             // variable containing today's date
             DateTime today = DateTime.Now;
 
             // output current date but not current time
             Console.Write("Today's Date: ");
             Console.WriteLine(today.ToString("d"));
+            
+            // christmas banner
+            BannerMessage("Christmas Calculator");
 
-
-            // welcome message
-            Console.WriteLine("");
-            Console.WriteLine("------------------------------------------");
-            Console.WriteLine("- Demonstration of Christmas Calculation -");
-            Console.WriteLine("------------------------------------------");
             // variable: Christmas 2019 DateTime
             DateTime christmas = new DateTime(2019, 12, 25);
 
@@ -70,10 +63,7 @@ namespace ConsoleApplicationKennedy
             }
 
             // for testing purposes
-            Console.WriteLine("");
-            Console.WriteLine("-----------------------------------");
-            Console.WriteLine("- Demonstration of Error Handling -");
-            Console.WriteLine("-----------------------------------");
+            BannerMessage("Demonstration of Error Handling");
 
             // new day, specifically after christmas 2019
             DateTime testday = new DateTime(2019, 12, 28);
@@ -99,10 +89,7 @@ namespace ConsoleApplicationKennedy
             }
            
             // program example from section 2.1 from the book
-            Console.WriteLine("");
-            Console.WriteLine("----------------------------------");
-            Console.WriteLine("- Stuff From the Book - Enhanced -");
-            Console.WriteLine("----------------------------------");
+            BannerMessage("Stuff From the Book - Enhanced");
 
             double width, height, woodLength, glassArea;
             string widthString, heightString;
@@ -127,6 +114,47 @@ namespace ConsoleApplicationKennedy
 
             // Pause the Program to avoid automatic termination
             Console.ReadLine();
+        }
+
+        public static void BannerMessage(string label)
+        {
+            // banner message
+            Console.WriteLine("");
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("-        " + label + "       -");
+            Console.WriteLine("----------------------------------------------------");
+        }
+
+        /*
+         * Method to Demonstrate Steps 2 and 3 from the Assignment 
+         */
+        void StepsTwoAndThree()
+        {
+
+        }
+
+        /*
+         * Method to Demonstrate Step 4 from the Assignment 
+         */
+        void StepFour()
+        {
+
+        }
+
+        /*
+         * Method to Demonstrate Step 5 from the Assignment 
+         */
+        void StepFive()
+        {
+
+        }
+
+        /*
+         * Method to Demonstrate Steps 6 and 7 from the Assignment 
+         */
+        void StepsSixAndSeven()
+        {
+
         }
     }
 }
