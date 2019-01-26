@@ -46,6 +46,7 @@
             this.addNewQuote.TabIndex = 0;
             this.addNewQuote.Text = "Add New Quote";
             this.addNewQuote.UseVisualStyleBackColor = true;
+            this.addNewQuote.Click += new System.EventHandler(this.addNewQuote_Click);
             // 
             // viewQuotes
             // 
@@ -56,6 +57,7 @@
             this.viewQuotes.TabIndex = 1;
             this.viewQuotes.Text = "View Quotes";
             this.viewQuotes.UseVisualStyleBackColor = true;
+            this.viewQuotes.Click += new System.EventHandler(this.viewQuotes_Click);
             // 
             // exit
             // 
@@ -66,6 +68,7 @@
             this.exit.TabIndex = 3;
             this.exit.Text = "Exit";
             this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // searchQuotes
             // 
@@ -76,6 +79,7 @@
             this.searchQuotes.TabIndex = 2;
             this.searchQuotes.Text = "Search Quotes";
             this.searchQuotes.UseVisualStyleBackColor = true;
+            this.searchQuotes.Click += new System.EventHandler(this.searchQuotes_Click);
             // 
             // pictureBox1
             // 
@@ -92,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 300);
+            this.ClientSize = new System.Drawing.Size(552, 299);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.searchQuotes);
